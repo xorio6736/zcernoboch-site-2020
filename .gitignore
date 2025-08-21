@@ -1,0 +1,8 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.code-workspace
+
+# Node / build stuff (if ever added)
+node_modules/
+dist/
