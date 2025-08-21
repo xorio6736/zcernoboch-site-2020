@@ -13,4 +13,4 @@ Static website from my early coursework. Publishing as a historical snapshot.
 
 **Status:** Archived (read-only).
 
-**Live demo:** <link once deployed>
+**Live demo:** https://axeltbone.github.io/zcernoboch-site-2020/
