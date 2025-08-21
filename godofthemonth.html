@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Start of html tag-->
+    <head> <!-- Start of head tag-->
+        <title>Zcerneboch: G.O.T.M</title> <!-- Change website's title -->
+        <meta name="author" content="Axel Tabone"> <!-- Adds me as the author of this file -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="css/main.css"> <!-- Links external .CSS to this .HTML -->
+        <link rel="stylesheet" href="css/lightbox.min.css"> <!-- Used Plugin for Photo Effect -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/lightbox-plus-jquery.min.js"></script> <!-- Used Plugin for Photo Effect -->
+    </head> <!-- End of head tag-->
+    
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <div id="title">
+                    <h3>
+                        Zcerneboch
+                        <br/>
+                        "G.O.T.M"
+                    </h3>
+                </div>
+                
+                <div id="icon" onclick="toggleMenu()">
+                    <h1>&#9776;</h1>
+                </div>
+                
+                <nav id="nav">
+                    <ul class="menu">
+                        <li> &#8997; <a href="index.html">Home</a></li> <!-- Used to insert hypertext links -->
+                        <li> &#8997; <a href="mythology.html">Mythology</a></li> <!-- Used to insert hypertext links -->
+                        <li> &#8997; <a href="slavicdeities.html">Slavic Deities</a></li> <!-- Used to insert hypertext links -->
+                        <li> &#8997; <a href="godofthemonth.html">G.O.T.M</a> &#8997; </li> <!-- Used to insert hypertext links -->
+                    </ul>
+                </nav>
+            
+                <nav class="iconMenu noneHome">
+                    <ul class="iconMenuContents">
+                        <li><hr class="sub"/></li>
+                        <li> &#8997; <a href="index.html">Home</a></li> <!-- Used to insert hypertext links -->
+                        <li><hr class="sub"/></li>
+                        <li> &#8997; <a href="mythology.html">Mythology</a></li> <!-- Used to insert hypertext links -->
+                        <li><hr class="sub"/></li>
+                        <li> &#8997; <a href="slavicdeities.html">Slavic Deities</a></li> <!-- Used to insert hypertext links -->
+                        <li><hr class="sub"/></li>
+                        <li> &#8997; <a href="godofthemonth.html">G.O.T.M</a></li> <!-- Used to insert hypertext links -->
+                        <li><hr class="sub"/></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div id="right-div">
+                <div id="form">
+                    <form name="myForm" action="godofthemonth.html" onsubmit="return validate()" target="_self" method="post">
+                        <div id="form-left">
+                            <fieldset>
+                                <legend>Name*:</legend>
+                                <input type="text" placeholder="Enter your name..." id="fname" name="fname">
+                            </fieldset>
+                            <fieldset>
+                                <legend>Surname*:</legend>
+                                <input type="text" placeholder="Enter your surname..." id="lname" name="lname">
+                            </fieldset>
+                            <fieldset>
+                                <legend>E-mail*:</legend>
+                                <input type="text" placeholder="Enter your email..." id="email" name="email">
+                            </fieldset>
+                            <fieldset>
+                                <legend>Gender:</legend>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label>
+                                <br/>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label>
+                            </fieldset>
+                            <fieldset>
+                                <legend>God of The Month:</legend>
+                                <select id="godofmonth">
+                                    <option selected="selected" value="">Choose a God...</option>
+                                    <option disabled>- - - - - - - - - - - -</option>
+                                    <option value="zcerneboch">Zcerneboch</option>
+                                    <option value="perun">Perun</option>
+                                    <option value="dazbog">Dazbog</option>
+                                    <option value="veles">Veles</option>
+                                    <option value="veles">Veles</option>
+                                    <option value="lada">Lada</option>
+                                    <option value="mokosh">Mokosh</option>
+                                    <option value="svarog">Svarog</option>
+                                    <option value="rod">Rod</option>
+                                </select>
+                            </fieldset>
+                        </div>
+                        <div id="form-right">
+                            <fieldset>
+                                <legend>Comments*:</legend>
+                                <textarea placeholder="Enter comments..." id="comments" name="comments"></textarea>
+                            </fieldset>
+                            <br/>
+                            <input id="submit-button" type="submit" value="Eternal Enslavement">
+                        </div>
+                    </form>
+                </div>
+                
+                <div id="under-form" class="scroll">
+                    <hr class="main"/>
+                    <h4>Origin of These Slavic Deities:</h4>
+                    <hr class="main"/>
+                    <iframe id="canvas" src="https://maps.google.com/maps?q=50.693861%2C%2027.246083&t=k&z=5&ie=UTF8&iwloc=&output=embed"></iframe>
+                </div>
+            </div>
+            
+            <div id="left-div">
+                <div id="top-content" class="scroll">
+                    <hr class="main"/>
+                    <h3>Zcerneboch's Lore [Smite]</h3>
+                    <hr class="main"/>
+                    <p class="text">
+                        Sunlight's last grasp reached up from the horizon like the clawing hand of a drowning man. Black against a blackening sky, the Great Mountain's frozen peak loomed.
+                        <br/>
+                        <br/>
+                        In the crannies and crevisses, in the darkened recesses of stone and ice, the denizens of nightmare crawled and squirmed. Silken shadows given form, withered hags of sorcerous witchcraft, leathery gargoyles, and skeletal fiends - all creeping ever upward, gathering for their unholy sabbath.
+                        <br/>
+                        <br/>
+                        Night at last swallowed light. Crystalline silence befell the summit. The wicked waited for their God. The pointed peak cracked and opened, two colossal bat-like wings spreading. He emerged, exultant.
+                        <br/>
+                        <br/>
+                        Creatures of every horror danced and cheered in twitches and fits, calling to their God. His jagged finger pointed and his minions of malice spewed forth to spread fear and death and darkness.
+                        <br/>
+                        <br/>
+                        Chernobog, Lord of Darkness, grinned.
+                    </p>
+                </div>
+            </div>
+            
+            <a href="images/ChernobogArt2.jpg" data-lightbox="mygallery" data-title="Zcernoboch, Lord of Darkness"><img id="left-div-bottom" src="images/ChernobogArt2.jpg" alt="A portrait of Zcerneboch covering the world in darkness"></a>
+            
+            <div id="footer">
+                Conjured by... [Axel Tabone || 4.1D]
+            </div>
+        </div>
+    </body>
+</html>
